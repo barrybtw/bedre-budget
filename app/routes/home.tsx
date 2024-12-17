@@ -10,7 +10,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <div className="bg-purple-600">
-      <h1>Forside</h1>
+      <h1>Forside er her</h1>
     </div>
   );
 }
