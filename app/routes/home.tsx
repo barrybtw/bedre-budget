@@ -9,5 +9,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="bg-purple-600">
+      <Welcome />
+    </div>
+  );
 }
